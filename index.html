@@ -2,11 +2,30 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Pedro Pascal FanClub</title>
   </head>
   <body>
+    <header>
+      <nav id="Navbar">
+        <div class="NavSeries">
+          <a href="./src/pages/page series/index.html" class="active">Series</a>
+          <div class="NavSeriesList">
+            <a href="#">The Last of Us</a>
+            <a href="#">The Mandalorian</a>
+            <a href="#">Narcos</a>
+          </div>
+        </div>
+        <a href="./src/pages/page peliculas/index.html">Películas</a>
+        <a href="./src/pages/page eventos/index.html">Eventos</a>
+        <a href="./src/pages/page noticias/index.html">Noticias</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </nav>
+      
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
   </body>
