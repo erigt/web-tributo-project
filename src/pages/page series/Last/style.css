@@ -1,11 +1,24 @@
+body {
+	background-color: whitesmoke;
+}
+
 .container {
 	display: grid;
-	grid-template-columns: 20% 20% 20%;
-	grid-template-rows: 35% 35% 35%;
-	gap: 5rem;
+	grid-template-columns: 25% 25% 25%;
+	grid-template-rows: 40% 40% 40%;
+	gap: 4.5rem;
 	justify-content: center;
 	align-items: center;
 	margin: 3%;
 	padding: 5%;
+	height: 80%;
+	width: 80%;
+}
+@media (min-width: 360px) and (max-width: 900px){
+	img {
+		height:100% ;
+
+	}
+
 }
 

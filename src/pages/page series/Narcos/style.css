@@ -1,3 +1,7 @@
+body {
+	background-color: whitesmoke;
+}
+
 .container {
 	display: grid;
 	grid-template-columns: 20% 20% 20%;
